@@ -1,4 +1,4 @@
-### Jenkins Setup
+<!-- ### Jenkins Setup
 
 
 Partition the disk 
@@ -37,4 +37,4 @@ sudo systemctl enable jenkins
 ### Master Agent Architecture
 * Create credentials to connect agent
 * Install Java in agent
-* Select Non verification strategy
+* Select Non verification strategy -->
