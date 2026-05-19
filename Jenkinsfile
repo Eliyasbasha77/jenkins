@@ -1,17 +1,17 @@
-pipeline {
-    // These are pre-build section
-    agent {
-        node {
-            label 'AGENT-1'
-        }
-    }
-    environment{
-        COURSE = "Jenkins"
-    }
-    options{
-        timeout(time: 10, unit: 'MINUTES')
-        disableConcurrentBuilds()
-    }
+// pipeline {
+//     // These are pre-build section
+//     agent {
+//         node {
+//             label 'AGENT-1'
+//         }
+//     }
+//     environment{
+//         COURSE = "Jenkins"
+//     }
+//     options{
+//         timeout(time: 10, unit: 'MINUTES')
+//         disableConcurrentBuilds()
+//     }
 
     parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
